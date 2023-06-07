@@ -1,0 +1,29 @@
+{
+  "name": "sdk-demo-12345",
+  "version": "1.0.0",
+  "description": "Npm Package Sample",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpgk": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "nodemonConfig": {
+    "exec": "npm run build",
+    "watch": ["src"],
+    "ext": "ts"
+  },
+  "keywords": [],
+  "author": "Starlly",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2"
+  }
+}

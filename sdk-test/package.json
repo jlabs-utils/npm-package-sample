@@ -1,0 +1,20 @@
+{
+  "name": "sdk-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/app.js",
+    "link": "npm link ../sdk-demo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "exec": "npm run build && npm run link && npm run dev",
+    "watch": ["src"],
+    "ext": "ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

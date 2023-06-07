@@ -1,0 +1,18 @@
+{
+  "name": "npmpackagesample",
+  "version": "1.0.0",
+  "description": "npm package SDK example template",
+  "main": "index.js",
+  "scripts": {
+    "wath:lib": "cd sdk-demo && nodemon",
+    "wath:test": "cd sdk-test && nodemon",
+    "test": "cd sdk-test && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
