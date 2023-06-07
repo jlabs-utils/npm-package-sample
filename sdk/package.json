@@ -1,5 +1,5 @@
 {
-  "name": "sdk-demo-12345",
+  "name": "package-sample",
   "version": "1.0.0",
   "description": "Npm Package Sample",
   "main": "dist/index.js",

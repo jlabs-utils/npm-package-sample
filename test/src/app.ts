@@ -1,4 +1,4 @@
-import Typicode from 'sdk-demo-12345'
+import Typicode from 'package-sample'
 
 const client = new Typicode({ apiKey: '123' })
 
